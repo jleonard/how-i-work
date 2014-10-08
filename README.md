@@ -63,8 +63,8 @@ Here's where things get different. I like to use [data attributes](https://devel
 
 Data attributes are easy to access in javascript which is important for my UI states because I assume I'll be be working with the state property in my app's .js.
 
-#### Bonus
-If you use jQuery, your element's data- attributes are [automatically pulled into the jQuery's data object](http://api.jquery.com/data/#data-html5). 
+> ##### Bonus
+> If you use jQuery, your element's data- attributes are [automatically pulled into the jQuery's data object](http://api.jquery.com/data/#data-html5). 
 
 ```
   <div id='myModal' class='modal' data-state='active'></div>
