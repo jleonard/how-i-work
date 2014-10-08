@@ -32,7 +32,7 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
 # css
 
-## Keep ui component declarations readable
+## readable ui components
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.  
 > -- Phil Karlton
