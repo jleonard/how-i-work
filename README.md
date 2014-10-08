@@ -74,7 +74,7 @@ Data attributes are easy to access in javascript which is important for my UI st
   </script>
 ```
 
-## css readability is more important to me than selector efficiency
+## (imho) css readability is more important than selector efficiency
 
 Look at most css frameworks and you'll find components that look like this...
 
