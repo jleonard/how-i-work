@@ -3,7 +3,7 @@ working-style
 
 # markup
 
-##### Give ``<script>`` tags **title**
+## Give ``<script>`` tags **title**
 ```
 <script title='main nav functionality' src='nav.js'></script>
 <script title='image uploader' src='uploader.js'></script>
@@ -14,7 +14,7 @@ Usually I'm using gulp or grunt to create distributions with my .js and .css min
 If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
 
-##### See if an [existing element](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list) can be applied before classing another ``<div>``
+### See if an [existing element](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list) can be applied before classing another ``<div>``
 
 ```
   <!-- i like -->
