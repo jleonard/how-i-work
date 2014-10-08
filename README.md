@@ -32,12 +32,12 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
 # css
 
-## readable ui components
+## organizing ui component names, states and variations
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.  
 > -- Phil Karlton
 
-My UI elements typically have 3 major distinctions for .css styling.
+My UI elements have 3 major distinctions for .css styling.
 
 1. The component name
 2. The component's variation(s)
@@ -45,12 +45,12 @@ My UI elements typically have 3 major distinctions for .css styling.
 
 Here's how I declare them...
 
- First, a basic component named ``dialog``.
+**Component name is part of the class list.**
 ```
 <div class='dialog'></div>
 ```
 
-Easy. Next, I add a ``modal`` variation because I want this dialog to be a fullscreen modal. Things are still feeling readable.
+**The Component's variation goes in the class list as well.**
 ```
 <div class='dialog modal'></div>
 ```
