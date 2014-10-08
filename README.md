@@ -39,9 +39,9 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
 My UI elements have 3 major distinctions for .css styling.
 
-1. The component name
-2. The component's variation(s)
-3. The component's ui state
+1. Name
+2. Variation(s)
+3. State
 
 Here's how I declare them...
 
@@ -74,5 +74,18 @@ Data attributes are easy to access in javascript which is important for my UI st
   </script>
 ```
 
+## css readability is more important to me than selector efficiency
+
+Look at most css frameworks and you'll find components that look like this...
+
+```
+<div class='button button-primary'></div>
+```
+
+I prefer the readiblity of...
+```
+<div class='button primary'></div>
+```
+...even though it's less efficent css. This comes down to a case of [knowing the rules](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS) before breaking them.
 
 
