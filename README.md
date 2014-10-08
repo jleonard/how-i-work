@@ -32,16 +32,47 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
 # css
 
-## Naming
+## Keep ui component declarations readable
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.  
 > -- Phil Karlton
 
-UI elements have 3 major style points.
+My UI elements typically have 3 major distinctions for .css styling.
 
-1. The component name ex ``<div class='modal'></div>``
-2. The component's variation(s) ex. ``<div class='modal '></div>``
-3. The component's state ex. ``<div class='modal' data-state='active'></div>``
+1. The component name
+2. The component's variation(s)
+3. The component's ui state
+
+Here's how I declare them...
+
+ First, a basic component named ``dialog``.
+```
+<div class='dialog'></div>
+```
+
+Easy. Next, I add a ``modal`` variation because I want this dialog to be a fullscreen modal. Things are still feeling readable.
+```
+<div class='dialog modal'></div>
+```
+
+Here's where things get different. I like to use [data attributes](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_data_attributes) to manage the ui state.
+
+```
+<div class='dialog modal' data-state='active'></div>
+```
+
+Data attributes are easy to access in javascript which is important for my UI states because I assume I'll be be working with the state property in my app's .js.
+
+#### Bonus
+If you use jQuery, your element's data- attributes are [automatically pulled into the jQuery's data object](http://api.jquery.com/data/#data-html5). 
+
+```
+  <div id='myModal' class='modal' data-state='active'></div>
+  <script>
+    var $myModal = $('#myModal');
+    console.log($myModal.data('state')); // logs 'active'
+  </script>
+```
 
 
 
