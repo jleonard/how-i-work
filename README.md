@@ -34,7 +34,7 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
 ## Naming
 
-> There are only two hard things in Computer Science: cache invalidation and naming things.
+> There are only two hard things in Computer Science: cache invalidation and naming things.  
 > -- Phil Karlton
 
 
