@@ -1,7 +1,7 @@
 #Working Style
 =============
 
-# markup
+# html
 
 ### Give ``<script>`` tags ___title___ attributes
 ```
@@ -29,4 +29,13 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
     <div class='content'></div>
   </div>
 ```
+
+# css
+
+## Naming
+
+> There are only two hard things in Computer Science: cache invalidation and naming things.
+> -- Phil Karlton
+
+
 
