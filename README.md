@@ -37,5 +37,11 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 > There are only two hard things in Computer Science: cache invalidation and naming things.  
 > -- Phil Karlton
 
+UI elements have 3 major style points.
+
+1. The component name ex ``<div class='modal'></div>``
+2. The component's variation(s) ex. ``<div class='modal '></div>``
+3. The component's state ex. ``<div class='modal' data-state='active'></div>``
+
 
 
