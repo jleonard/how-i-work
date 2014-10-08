@@ -3,7 +3,7 @@ working-style
 
 # markup
 
-## Give ``<script>`` tags **title**
+### Give ``<script>`` tags __title__ attributes
 ```
 <script title='main nav functionality' src='nav.js'></script>
 <script title='image uploader' src='uploader.js'></script>
