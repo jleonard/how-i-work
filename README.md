@@ -1,4 +1,4 @@
-working-style
+#Working Style
 =============
 
 # markup
@@ -9,7 +9,7 @@ working-style
 <script title='image uploader' src='uploader.js'></script>
 ```
 
-Usually I'm using gulp or grunt to create distributions with my .js and .css minified into single files. If for whatever reason I'm not, I use this technique for readibility. It's helpful scanning a stack of ``<script>`` tags and making sure everything is being loaded in the right order.
+If for whatever reason I'm not minifying everything into a single .js file, I use this technique for readibility. It's helpful scanning a stack of ``<script>`` tags and making sure everything is being loaded in the right order.
 
 If I've got multiple .css files, I'll use it for my ``<link>`` tags.
 
@@ -23,7 +23,7 @@ If I've got multiple .css files, I'll use it for my ``<link>`` tags.
   </main>
 
   <!-- 
-      now everything in my .css starts with a 'c' and i'm going to keep forgetting the nesting order of these two. wah. wah. 
+      Now everything in my .css starts with a '.c' and I can't remember the nesting order. wah. wah. 
   -->
   <div class='container'>
     <div class='content'></div>
