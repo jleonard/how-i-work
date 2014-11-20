@@ -3,7 +3,7 @@
 > My name is John Leonard. I'm Associate Director of Technology at [frog](http://frogdesign.com). I do a lot of prototyping on the web platform. This is how I work.
 
 ## Machine setup
-I work on a Mac Book Pro. [Here's a gist with rough notes on my setup](https://gist.github.com/jleonard/8041209). If you take one thing away from that it should be [sexy bash prompt](https://github.com/twolfson/sexy-bash-prompt).
+I work on a Mac Book Pro. [Here's a gist with rough notes on my setup](https://gist.github.com/jleonard/8041209). The thing I love most on that list is [sexy bash prompt](https://github.com/twolfson/sexy-bash-prompt).
 
 # html
 
