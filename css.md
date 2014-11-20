@@ -119,4 +119,4 @@ There are a lot of [html elements](https://developer.mozilla.org/en-US/docs/Web/
 
 I don't obsess over .css selector performance but I know how it works and I've come to a happy balance of following some suggested practices and disregarding others. For example, I avoid excessive nesting of rules but I don't focus on the right to left selector specificity. I'll use the [* universal selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) when it makes sense.
 
-I try not to get too dogmatic. Best practices are really __suggested__ practices. Otherwise I'd miss weird little tricks like [the lobotimized owl](http://alistapart.com/article/axiomatic-css-and-lobotomized-owls).
+If some weird little trick like [the lobotimized owl](http://alistapart.com/article/axiomatic-css-and-lobotomized-owls) comes along and it helps me write more readable code then I'm sold.
