@@ -47,9 +47,9 @@ nav ul{
 
 ### Don't overcomplicate things.
 
-There's been a lot of attention around css coding convention systems like [BEM (Block, Element, Modifier)](http://www.integralist.co.uk/posts/maintainable-css-with-bem/) and [SUIT](http://suitcss.github.io/). Hate is a strong word. I hate both approaches.
+There's been a lot of attention around css naming systems like [BEM (Block, Element, Modifier)](http://www.integralist.co.uk/posts/maintainable-css-with-bem/) and [SUIT](http://suitcss.github.io/). Hate is a strong word. I **hate** both approaches.
 
-Both are positioned as methods to organize css/dom while providing performance improvements for the browser's css selector engine. 
+Both are positioned as methods to organize css/dom while providing performance improvements for the browser's css selector engine. Here's what I don't like...
 
 #### Don't use unweildy naming conventions 
 **Both introduce excessive & repetitive naming conventions that pollute the class list and put burden on the front end developer. They suffer from obsessive encapsulation that's already provided by the DOM.**
@@ -94,4 +94,12 @@ Should it be ``Widget-input`` or ``Widget-form-input``? Do I need ``__``, ``--``
 </ul>
 ```
 
-#### Don't tightly couple .js functionality with the DOM
+#### Don't obsess over css selector performance
+This is a case of knowing the rules before you break them.
+
+---
+> # The Do's
+
+## Use the minimum amount of 'hooks' in your markup.
+
+By __hooks__ I mean ids and classes. Giving something an id or class name only when you're explicitly referencing it in your .js or .css.
