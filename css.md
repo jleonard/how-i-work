@@ -115,7 +115,7 @@ There are a lot of [html elements](https://developer.mozilla.org/en-US/docs/Web/
 <p>Lorem <span class='highlight'>ipsum</span> dolor.</p>
 ```
 
-## Know the rules before you break them.
+## Define your own best practices
 
 I don't obsess over .css selector performance but I know how it works and I've come to a happy balance of following some suggested practices and disregarding others. For example, I avoid excessive nesting of rules but I don't focus on the right to left selector specificity. I'll use the [* universal selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) when it makes sense.
 
