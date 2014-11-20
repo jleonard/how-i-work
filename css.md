@@ -42,6 +42,7 @@ nav ul{
 }
 ```
 
+---
 > # The Don'ts
 
 ### Don't overcomplicate things.
