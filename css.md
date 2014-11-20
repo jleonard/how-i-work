@@ -104,7 +104,7 @@ This is a case of knowing the rules before you break them.
 
 By __hooks__ I mean ids and classes. Giving something an id or class name only when you're explicitly referencing it in your .js or .css.
 
-## Choose elements over classes.
+## Choose native html tags over classes.
 There are a lot of [html elements](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list) already available. See if you can use one of them first.
 
 **this**
