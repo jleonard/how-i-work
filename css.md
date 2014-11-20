@@ -42,6 +42,8 @@ nav ul{
 }
 ```
 
+> # The Don'ts
+
 ### Don't overcomplicate things.
 
 There's been a lot of attention around css coding convention systems like [BEM (Block, Element, Modifier)](http://www.integralist.co.uk/posts/maintainable-css-with-bem/) and [SUIT](http://suitcss.github.io/). Hate is a strong word. I hate both approaches.
