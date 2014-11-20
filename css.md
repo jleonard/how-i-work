@@ -103,3 +103,12 @@ This is a case of knowing the rules before you break them.
 ## Use the minimum amount of 'hooks' in your markup.
 
 By __hooks__ I mean ids and classes. Giving something an id or class name only when you're explicitly referencing it in your .js or .css.
+
+## Choose elements over classes.
+**this**
+```html
+<p>Lorem <mark>ipsum</mark> dolor.</p>
+```
+
+**not this**
+<p>Lorem <span class='mark'>ipsum</span> dolor.</p>
