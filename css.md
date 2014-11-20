@@ -9,4 +9,4 @@ Atomic Design is a great methodology but I get caught up on the naming conventio
 Atoms, Molecules, Organisms, Templates and Pages are difficult to get a team to normalize on. Pages and Templates sound very similar and will confuse folks looking with a CMS-lens. Pages and Templates also break the bio-chem naming convention. Anyway, I obsess on naming and it's something I need to work on.
 
 #### How I talk about css components
-* elements - These are the native html body elements (ul,p,div,etc.)
+* **elements** - These are the native html body elements (ul,p,div,etc.)
