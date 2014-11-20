@@ -1,7 +1,6 @@
 #How I Work
-=============
 
-> My name is John Leonard. I'm Associate Director of Technology at frog. I do a lot of prototyping on the web platform. This is how I work.
+> My name is John Leonard. I'm Associate Director of Technology at [frog](http://frogdesign.com). I do a lot of prototyping on the web platform. This is how I work.
 
 # html
 
