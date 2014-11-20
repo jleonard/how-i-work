@@ -6,7 +6,7 @@
 ### Organizing things: A tweak on [atomic design](http://bradfrost.com/blog/post/atomic-web-design/)
 Atomic Design is a great methodology but I'm not a fan of the naming conventions. 
 
-Atomic Design's Atoms, Molecules, Organisms, Templates and Pages are difficult to get a team to normalize on. Pages and Templates sound very similar and will confuse folks looking with a CMS-lens. Pages and Templates also break the bio-chem naming convention. Anyway, I obsess on naming and it's something I need to work on.
+Atomic Design's Atoms, Molecules, Organisms, Templates and Pages are difficult to get a team to align on. Pages and Templates sound very similar and will confuse folks looking with a CMS-lens. Pages and Templates also break the bio-chem naming convention. Anyway, I obsess on naming and it's something I need to work on.
 
 #### Organizing css & the DOM into manageable pieces
 * **macro structure** - This is how the nav, sidebars, main grid, footer etc. are composed on the page.
