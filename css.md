@@ -18,11 +18,12 @@ This is how I break views down:
 Here's how that might apply to a site's main navigation. The nav is part of the page's macro structure in that it's a primary block of the page. The nav is also a container for micro-structures, components and elements.
 
 ```css
-// macro structure styles
+// macro structure
 nav{
   background-color: black;
   height: 4rem;
   position: fixed;
+  ...
 }
 
 // nav's internal micro structures
