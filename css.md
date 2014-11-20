@@ -111,4 +111,6 @@ By __hooks__ I mean ids and classes. Giving something an id or class name only w
 ```
 
 **not this**
+```html
 <p>Lorem <span class='mark'>ipsum</span> dolor.</p>
+```
