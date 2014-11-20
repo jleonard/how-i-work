@@ -2,6 +2,9 @@
 
 > My name is John Leonard. I'm Associate Director of Technology at [frog](http://frogdesign.com). I do a lot of prototyping on the web platform. This is how I work.
 
+## Machine setup
+I work on a Mac Book Pro. [Here's a gist with rough notes on my setup](https://gist.github.com/jleonard/8041209).
+
 # html
 
 ### Give ``<script>`` tags ___title___ attributes
