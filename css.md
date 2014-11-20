@@ -87,7 +87,7 @@ Should it be ``Widget-input`` or ``Widget-form-input``? Do I need ``__``, ``--``
 **It leads to shit like this**
 ```
 <ul class='list'>
- <li class='list-item'>...</li>
+ <li class='list__item'>...</li>
 </ul>
 ```
 
