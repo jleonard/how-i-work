@@ -15,7 +15,7 @@ This is how I break views down:
 * **components** - Components can contain multiple elements and or components. They usually have some .js associated with them. Examples are tabs, dialogs, etc.
 * **elements** - The native html body elements (ul,p,div,etc.). In cases like tables and forms where an element is expected to contain multiple child elements I sometimes identify them as layout patterns or components.
 
-Here's how that might apply to a site's main navigation. The nav is part of the page's macro structure in that it's a primary block of the page. The nav is also a container for micro-structures like layout grids and horizontal boxes as well as components like tabs or drop-down menus.
+Here's how that might apply to a site's main navigation. The nav is part of the page's macro structure in that it's a primary block of the page. The nav is also a container for micro-structures, components and elements.
 
 ```css
 // macro structure styles
