@@ -54,6 +54,8 @@ Both are positioned as methods to organize css/dom while providing performance i
 #### Don't use unweildy naming conventions 
 **Both introduce excessive & repetitive naming conventions that pollute the class list and put burden on the front end developer. They suffer from obsessive encapsulation that's already provided by the DOM.**
 
+##### css readability > css selector performance
+
 Here's a BEM example
 ```html
 <!-- BEM example -->
