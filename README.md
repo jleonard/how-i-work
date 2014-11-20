@@ -1,9 +1,13 @@
 #How I Work
 
-> My name is John Leonard. I'm Associate Director of Technology at [frog](http://frogdesign.com). I do a lot of prototyping on the web platform. This is how I work.
+> My name is John Leonard. I'm Associate Director of Technology at [frog](http://frogdesign.com). I do a lot of prototyping on the web platform. This is my methodology.
 
 ## Machine setup
 I work on a Mac Book Pro. [Here's a gist with rough notes on my setup](https://gist.github.com/jleonard/8041209). The thing I love most on that list is [sexy bash prompt](https://github.com/twolfson/sexy-bash-prompt).
+
+> # Define your own best practices
+
+What I'm capturing isn't meant to be prescriptive. I make lists of __do's__ and __don'ts__ which should read as __I dos__ and __I don'ts__. There are a lot of articles/posts about best practices. 
 
 # html
 
