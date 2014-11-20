@@ -10,8 +10,34 @@ Atomic Design's Atoms, Molecules, Organisms, Templates and Pages are difficult t
 
 #### Organizing css & the DOM into manageable pieces.
 This is how I break views down:
-* **macro structure** - This is how the nav, sidebars, main grid, footer etc. are composed on the page.
-* **micro structures (layout patterns)** - Smaller, potentially reusable layout structures like content grids, forms, tables, sidebar layouts etc.. These are containers with specific .css rules to govern the display of their children but don't always need associated .js.
-* **elements** - The native html body elements (ul,p,div,etc.). In cases like tables and forms where an element is expected to contain multiple child elements I sometimes identify them as layout patterns or components.
+* **macro-structure** - This is how the nav, sidebars, main grid, footer etc. are composed on the page.
+* **micro-structures (layout patterns)** - Smaller, potentially reusable layout structures like content grids, forms, tables, sidebar layouts etc.. These are containers with specific .css rules to govern the display of their children but don't always need associated .js.
 * **components** - Components can contain multiple elements and or components. They usually have some .js associated with them. Examples are tabs, dialogs, etc.
+* **elements** - The native html body elements (ul,p,div,etc.). In cases like tables and forms where an element is expected to contain multiple child elements I sometimes identify them as layout patterns or components.
+
+Here's how that might apply to a site's main navigation. The nav is part of the page's macro structure in that it's a primary block of the page. The nav is also a container for micro-structures like layout grids and horizontal boxes as well as components like tabs or drop-down menus.
+
+```css
+// macro structure styles
+nav{
+  background-color: black;
+  height: 4rem;
+  position: fixed;
+}
+
+// nav's internal micro structures
+nav .tools{ ... }
+
+// nav's components
+nav .drop-down{ ... }
+
+// nav's elements
+nav h1{ ... }
+nav ul{
+ ...
+ li{
+  ...
+ }
+}
+```
 
